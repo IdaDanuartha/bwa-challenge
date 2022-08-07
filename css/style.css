@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+}
+
+:root {
+    --main-color: #FDC886;
+    --main-text-color: #232631;
+    --main-nav-color: #5A4FCF;
+    --main-nav-color-with-opacity: rgba(90, 79, 207, 0.1);
+    --rating-color: #FFB800;
+    --gray-color: #656565;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Style */
+.nav-text {
+    color: var(--main-text-color);
+    font-weight: 600;
+}
+
+.dropdown .dropdown-icon {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -10px;
+    top: 16px;
+}
+
+.nav-link.active {
+    border-bottom: 3px solid var(--main-nav-color);
+}
+
+.search-box .search-icon {
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
+
+.search-box input[type="search"] {
+    width: 350px;
+    padding: 16px 3.5rem 1rem;
+}
+
+.search-box input[type="search"]::placeholder {
+    font-weight: 550;
+}
+
+.d-flex .btn-login {
+    background-color: var(--main-nav-color-with-opacity);
+    color: var(--main-nav-color);
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;    
+}
+
+
+
+/* Header Style */
+header .header-img {
+    border-radius: 20px;
+}
+
+.header-description {
+    background-color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    padding: 24px 140px 24px 24px;
+    border-radius: 20px;
+}
+.header-description .rating-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.header-description .rating-text {
+    color: var(--rating-color);
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.header-description .review-text {
+    color: var(--gray-color);
+}
+
+.header-description .title-text {
+    font-size: 22px;
+}
+
+.header-description .price-text {
+    color: var(--gray-color);
+    font-size: 18px;
+}
+
+.header-description .location-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.header-description .btn-reservation {
+    background-color: var(--main-color);    
+    padding: 16px 28px;
+    font-weight: 600;
+}
+
+.header-description .btn-reservation .reservation-icon {
+    margin-top: 8px;
+    width: 10px;
+    height: 10px;
+}
+
+.header-description .info-text {
+    color: var(--gray-color);
+}
+
+.header-description .info-icon {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Restaurant Landing Page</title>
+</head>
+
+<body>
+
+    <main>
+        <!-- Start navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid p-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-between navbar-collapse" id="navbarSupportedContent">
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active nav-text" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item me-3 dropdown">
+                                <a class="nav-link nav-text" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Category
+                                    <img src="img/icons/angle-down.svg" class="dropdown-icon" alt="dropdown icon">
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link nav-text" href="#">Services</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link nav-text" href="#">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <img src="img/icons/home.svg" alt="Home icon">
+                        <h3 class="fw-bold ms-2 mt-2">Resto</h3>
+                    </div>
+                    <div class="d-flex">
+                        <form class="position-relative search-box me-3">
+                            <img src="img/icons/Search.svg" class="search-icon" alt="Search icon">
+                            <input class="rounded border-0 me-2" type="search" placeholder="Search your favorite food"
+                                aria-label="Search">
+                        </form>
+                        <button class="btn btn-login">Log In</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <!-- End navbar -->
+
+        <!-- Start header -->
+        <header class="position-relative">
+            <div class="bg-white header-description">
+                <div>
+                    <div class="d-flex mb-3">
+                        <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                        <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                        <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                        <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                        <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                        <span class="rating-text">5.0</span>
+                        <span class="review-text">(5.2K +)</span>
+                    </div>
+                    <h4 class="fw-semibold title-text">Padang Restaurant</h4>
+                    <h4 class="fw-semibold price-text">IDR 49.999 - IDR 560.000</h4>
+                    <div class="d-flex mt-2">
+                        <img src="img/icons/location-dot.svg" class="location-icon" alt="Location icon">
+                        <p class="ms-2">Padang, Indonesia</p>
+                    </div>
+                    <button class="btn btn-reservation mt-4 d-flex">Make Reservation <img class="reservation-icon ms-2"
+                            src="img/icons/angle-right.svg" alt=""></button>
+                    <div class="d-flex mt-3">
+                        <img src="img/icons/Info Square.png" class="info-icon" alt="Info icon">
+                        <p class="ms-2 info-text">No extra cost</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <img class="header-img" src="img/header-img-1.png" alt="Header image">
+            </div>
+        </header>
+        <!-- End header -->
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
