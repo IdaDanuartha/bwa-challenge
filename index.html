@@ -24,36 +24,31 @@
                 <div class="d-flex justify-content-between navbar-collapse" id="navbarSupportedContent">
                     <div>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item me-3">
+                            <li class="nav-item me-5">
                                 <a class="nav-link active nav-text" aria-current="page" href="#">Home</a>
                             </li>
 
-                            <li class="nav-item me-3 dropdown">
+                            <li class="nav-item me-5 dropdown">
                                 <a class="nav-link nav-text" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Category
                                     <img src="img/icons/angle-down.svg" class="dropdown-icon" alt="dropdown icon">
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Restaurant</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item me-3">
+                            <li class="nav-item me-5">
                                 <a class="nav-link nav-text" href="#">Services</a>
                             </li>
-                            <li class="nav-item me-3">
+                            <li class="nav-item me-5">
                                 <a class="nav-link nav-text" href="#">About us</a>
                             </li>
                         </ul>
                     </div>
                     <div class="d-flex">
                         <img src="img/icons/home.svg" alt="Home icon">
-                        <h3 class="fw-bold ms-2 mt-2">Resto</h3>
+                        <h3 class="ms-2 mt-2 fw-bolder">Resto</h3>
                     </div>
                     <div class="d-flex">
                         <form class="position-relative search-box me-3">
@@ -80,12 +75,12 @@
                         <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
                         <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
                         <span class="rating-text">5.0</span>
-                        <span class="review-text">(5.2K +)</span>
+                        <span class="review-text">(5.2K+)</span>
                     </div>
                     <h4 class="fw-semibold title-text">Padang Restaurant</h4>
                     <h4 class="fw-semibold price-text">IDR 49.999 - IDR 560.000</h4>
                     <div class="d-flex mt-2">
-                        <img src="img/icons/location-dot.svg" class="location-icon" alt="Location icon">
+                        <img src="img/icons/location.svg" class="location-icon" alt="Location icon">
                         <p class="ms-2">Padang, Indonesia</p>
                     </div>
                     <button class="btn btn-reservation mt-4 d-flex">Make Reservation <img class="reservation-icon ms-2"
@@ -96,8 +91,10 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center">
-                <img class="header-img" src="img/header-img-1.png" alt="Header image">
+            <div class="row">
+                <div class="col-1"></div>
+                <img class="col-9 header-img1" src="img/header-img-1.png" alt="Header image">
+                <img class="col-2 header-img2" src="img/header-img-3.png" alt="Header image">
             </div>
         </header>
         <!-- End header -->
@@ -126,7 +123,7 @@
                 <div class="col-3">
                     <div class="bg-white text-center card border-0 rounded" style="width: 18rem;">
                         <div class="card-body p-3">
-                            <img src="img/icons/discount.png" alt="">
+                            <img src="img/icons/eat.png" alt="">
                             <h6 class="mt-3">Come and Eat</h6>
                             <p class="card-text">Get your own table quickly & without waiting in line</p>
                         </div>
@@ -140,7 +137,7 @@
                 <div class="col-3">
                     <div class="bg-white text-center card border-0 rounded" style="width: 18rem;">
                         <div class="card-body p-3">
-                            <img src="img/icons/discount.png" alt="">
+                            <img src="img/icons/fee.png" alt="">
                             <h6 class="mt-3">No Extra Fee</h6>
                             <p class="card-text">Get tax free if you want to order food and make a reservation</p>
                         </div>
@@ -154,7 +151,7 @@
                 <div class="col-3">
                     <div class="bg-white text-center card border-0 rounded" style="width: 18rem;">
                         <div class="card-body p-3">
-                            <img src="img/icons/discount.png" alt="">
+                            <img src="img/icons/clean.png" alt="">
                             <h6 class="mt-3">Guaranteed Cleanliness</h6>
                             <p class="card-text">We ensure the cleanliness of the place as well as the food</p>
                         </div>
@@ -167,6 +164,137 @@
             </div>
         </section>
         <!-- Start section why us -->
+
+        <!-- Start section popular restaurant -->
+        <section class="mt-5 p-5 popular-container">
+            <div class="row">
+                <div class="col-4 left-panel me-5">
+                    <div class="mb-4">
+                        <h6 class="sub-text">TOP 3 FEATURED RESTAURANTS</h6>
+                        <h4 class="big-text">Most Popular Restaurants</h4>
+                    </div>
+                    <p class="description">The best restaurant in our opinion is how much customers like it in terms of
+                        place, price,
+                        comfort and of course the taste of
+                        the food itself.</p>
+                    <button class="btn btn-view-all py-3 px-4 mt-5">View All Restaurant <img class="view-all-icon ms-2"
+                            src="img/icons/angle-right.svg" alt=""></button>
+                </div>
+                <div class="col-7 right-panel">
+                    <div class="d-flex img-container">
+                        <div class="position-relative">
+                            <img src="img/popular-img1.png" class="popular-img1" alt="Popular restaurant image">
+                            <div class="d-flex justify-content-between description-box p-4">
+                                <div>
+                                    <div class="d-flex mb-2">
+                                        <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                                        <span class="rating-text me-1">5.0 </span>
+                                        <span class="review-text">(7.6K+)</span>
+                                    </div>
+                                    <h5 class="fw-bold">Bind Balorant</h5>
+                                    <div class="d-flex mt-2">
+                                        <img src="img/icons/location.svg" class="location-icon" alt="Location icon">
+                                        <p class="location-text">Jakarta, Indonesia</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="view-btn btn"><img class="arrow-right-icon"
+                                            src="img/icons/arrow-right.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <img src=" img/popular-img2.png" alt="Popular restaurant image">
+                        <img src="img/popular-img3.png" alt="Popular restaurant image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End section popular restaurant -->
+
+        <!-- Start section list restaurant -->
+        <section class="mt-5 p-5 list-restaurant-container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6 class="sub-text">RESTAURANT BASED BY CITY</h6>
+                    <h4 class="big-text">Restaurant Near You</h4>
+                </div>
+                <div class="py-3 px-4 location-dropdown">
+                    <div class="d-flex" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/icons/location.svg" class="location-icon mb-3 me-2" alt="Location icon">
+                        <p class="location-text">Jakarta, Indonesia</p>
+                        <img src="img/icons/angle-down.svg" class="dropdown-icon ms-2" alt="Dropdown icon">
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Jakarta, Indonesia</a></li>
+                        <li><a class="dropdown-item" href="#">Bali, Indonesia</a></li>
+                        <li><a class="dropdown-item" href="#">Yogyakarta, Indonesia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-3 row">
+                <div class="position-relative col-4">
+                    <img src="img/restaurant1.png" class="img-restaurant" alt="Restaurant image">
+                    <div class="d-flex justify-content-between description-box p-4">
+                        <div>
+                            <div class="d-flex mb-2">
+                                <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                                <span class="rating-text me-1">5.0 </span>
+                                <span class="review-text">(6.6K+)</span>
+                            </div>
+                            <h5 class="fw-bold">Batavia Restaurant</h5>
+                            <h5 class="price-text fw-semibold">IDR 29.000 - IDR 259.999</h5>
+                        </div>
+                        <div>
+                            <button class="view-btn btn"><img class="arrow-right-icon" src="img/icons/arrow-right.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="position-relative col-4">
+                    <img src="img/restaurant2.png" class="img-restaurant" alt="Restaurant image">
+                    <div class="d-flex justify-content-between description-box p-4">
+                        <div>
+                            <div class="d-flex mb-2">
+                                <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                                <span class="rating-text me-1">5.0 </span>
+                                <span class="review-text">(6.6K+)</span>
+                            </div>
+                            <h5 class="fw-bold">Batavia Restaurant</h5>
+                            <h5 class="price-text fw-semibold">IDR 29.000 - IDR 259.999</h5>
+                        </div>
+                        <div>
+                            <button class="view-btn btn"><img class="arrow-right-icon" src="img/icons/arrow-right.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="position-relative col-4">
+                    <img src="img/restaurant3.png" class="img-restaurant" alt="Restaurant image">
+                    <div class="d-flex justify-content-between description-box p-4">
+                        <div>
+                            <div class="d-flex mb-2">
+                                <img src="img/icons/star.svg" class="rating-icon" alt="rating icon">
+                                <span class="rating-text me-1">5.0 </span>
+                                <span class="review-text">(6.6K+)</span>
+                            </div>
+                            <h5 class="fw-bold">Batavia Restaurant</h5>
+                            <h5 class="price-text fw-semibold">IDR 29.000 - IDR 259.999</h5>
+                        </div>
+                        <div>
+                            <button class="view-btn btn"><img class="arrow-right-icon" src="img/icons/arrow-right.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-view-all py-3 px-4 mt-5">View All Restaurant <img class="view-all-icon ms-2"
+                        src="img/icons/angle-right.svg" alt=""></button>
+            </div>
+        </section>
+        <!-- End section list restaurant -->
     </main>
 
 
