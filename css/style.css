@@ -7,7 +7,7 @@
 :root {
     --main-color: #FDC886;
     --main-text-color: #232631;
-    --main-nav-color: #5A4FCF;
+    --secondary-text-color: #5A4FCF;
     --main-nav-color-with-opacity: rgba(90, 79, 207, 0.1);
     --rating-color: #FFB800;
     --gray-color: #656565;
@@ -20,6 +20,8 @@ body {
     background-color: #FAFAFA;
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 /* Navbar Style */
 .nav-text {
@@ -36,7 +38,7 @@ body {
 }
 
 .nav-link.active {
-    border-bottom: 3px solid var(--main-nav-color);
+    border-bottom: 3px solid var(--secondary-text-color);
 }
 
 .search-box .search-icon {
@@ -55,12 +57,14 @@ body {
 }
 
 .d-flex .btn-login {
-    background-color: var(--main-nav-color-with-opacity);
-    color: var(--main-nav-color);
+    background-color: var(--secondary-text-color-with-opacity);
+    color: var(--secondary-text-color);
     font-weight: 600;
     border-radius: 10px;
     width: 100px;    
 }
+
+
 
 
 
@@ -126,4 +130,52 @@ header .header-img {
 .header-description .info-icon {
     width: 24px;
     height: 24px;
+}
+
+
+
+
+
+
+/* Why us style */
+
+.why-us-container .title-text .sub-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.why-us-container .title-text .big-text {
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--main-text-color);
+}
+
+.why-us-container .card:hover .btn-view-details {
+    background-color: var(--main-color);    
+}
+
+.why-us-container .card .card-body h6 {
+    font-weight: bold;
+}
+
+.why-us-container .card .card-text {
+    color: var(--gray-color);
+    font-size: 16px;
+}
+
+.why-us-container .btn-view-details {
+    width: 100%;
+    font-weight: 600;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.3s;
+}
+
+.why-us-container .view-details-icon {  
+    width: 10px;
+    height: 10px;
 }
